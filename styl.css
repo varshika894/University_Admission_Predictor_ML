@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css?family-Mukta:ught@2008 family-PT Sans&display-swap');
+*{
+    margin: 0;
+    padding: 0;
+    }
+    body{
+        background-image: url('background.png');
+        background-size: cover;
+        font-family:'Mukta', 'sans-serif';
+        font-family:'PT Sans', 'sans-serif';
+    }
+    
+    .main{
+    height: 100vh; 
+    display: flex;
+    }
+    .child{
+    height:440px;
+    width:400px;
+    margin:auto;
+    border-radius:20px;
+    border: 2px solid rgba(255,255,255,0.5); 
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(15px);
+    }
+    h1{
+        text-align:center;
+    }
+    .email,.password{
+        width:300px;
+        height:30px;
+        border:none;
+        border-bottom:2px solid black;
+        outline:none;
+        color:black;
+        background:transparent;
+        display: block;     
+    }
+    .btn{
+        height:35px;
+        width:300px;
+        border:none;
+        margin:15px;
+        cursor:pointer;
+        border-radius:6px;
+        background-color:#0091ff;
+        font-size: 15px;
+        margin-bottom: 20px;
+        font-weight: 700 ;
+    }
+    .checkbx{
+        position: relative;
+        left: -110px;
+    }
+    .fpass{
+        position: relative;
+        right:-110px;
+        top: -19px;
+        text-decoration: none;
+        color:black;
+        font-weight: 700;
+    }
+    .register{
+        text-decoration: none;
+        color: black;
+        font-weight: 700;        
+    }
+    ::placeholder{
+        color:black;
+    }
