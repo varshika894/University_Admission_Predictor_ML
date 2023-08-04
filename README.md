@@ -1,8 +1,8 @@
-# Predicting College Admissions (Random Forest)
+# University Admission Predictor
 
 
 ## Objective  
-Given certain metrics of a student, our task is to predict the probability of the student getting accepted into graduate programs. We will use a random forest to accomplish this task.
+Given certain class 12 student, our task is to predict the probability of the student getting seleceted into graduate programs. We will use a random forest to complete this task.
 
 ## Dataset
 The dataset contains 500 observations with the following variables:  
@@ -22,14 +22,14 @@ The following procedures are carried out in the notebook:
 ### Analyzing the Attributes  
 Determine what predictor variables are useful for the task at hand. Apply appropriate transformations if needed.
 ### Model Fitting
-In this case, usa  a Random Forest to make predictions. Find optimum parameters and record metrics.
+In this case, use a Random Forest to make predictions. Find optimum parameters and record metrics.
 ### Evalutaion Metrics
 Evaluation Metrics for this project are Mean Squared Error **(MSE)** and coefficient of determination **R^<sup>2</sup>**. Apart from evaluation metrics, we also analyze feature importance. 
 ### Predicting on a Custom Example
 Provide a test case and look at the prediction.
 
 ## Conclusion
-The final model explained about **84.9%** of the variability in **Chance of Admit**.  
+The final model explained about **78.9%** of the variability in **Chance of Admit**.  
 
 
 
